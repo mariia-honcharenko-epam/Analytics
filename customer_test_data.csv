@@ -1,0 +1,11 @@
+id,customer_name,customer_surname,address,mobile_phone,age,job,test_case
+123,John,Doe,123 Elm Street,1234567890,30,Engineer,Validate Raw Data Ingestion
+null,John,Doe,123 Elm Street,1234567890,30,Engineer,Test Null ID Field
+ABC,John,Doe,123 Elm Street,1234567890,30,Engineer,Test Invalid ID Type
+123,"",Doe,123 Elm Street,1234567890,30,Engineer,Test Empty Customer Name
+123,John,Doe,123 Elm Street,null,30,Engineer,Test Null Mobile Phone Field
+123,John,Doe,123 Elm Street,abc,30,Engineer,Test Invalid Mobile Phone Type
+123,John,Doe,123 Elm Street,1234567890,-5,Engineer,Test Negative Age Value
+123,John,Doe,123 Elm Street,1234567890,"Thirty",Engineer,Test Invalid Age Type
+789,Jane,Doe,456 Oak Street,0987654321,25,Doctor,Validate SCD Type 1 Logic
+456,John,Smith,789 Pine Street,1122334455,40,Artist,Validate Data Quality Checks
